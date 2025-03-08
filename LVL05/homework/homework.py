@@ -18,12 +18,12 @@
 # num4=int(input("Your 4 num"))
 # num5=int(input("Your 5 num"))
 
-# print(num1+num2+num3+num4+num5/)
+# print(num1+num2+num3+num4+num5/5)
 
-# c=int(input("Enter the temperature"))
+# c=float(input("Enter the temperature"))
 # f=c * 9/5 +32
 # print(f)
 
-f=int(input("Enter the temperature"))
+f=float(input("Enter the temperature"))
 c=(f-32) * 5/9
 print(c)
