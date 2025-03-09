@@ -1,0 +1,11 @@
+num1=int(input("your first num"))
+num2=int(input("your second num"))
+
+print(num1>num2)
+print(num1<num2)
+print(num1!=num2)
+print(num1==num2)
+print(num1*num2)
+print(num1/num2)
+print(num1+num2)
+print(num1-num2)
