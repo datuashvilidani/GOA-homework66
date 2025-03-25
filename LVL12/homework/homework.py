@@ -39,15 +39,18 @@
 
 # sum=0
 # num=int(input("enter a number"))
-# for i in range(1,num):
+# for i in range(1,num + 1):
 #     sum+=i
 #     print(sum)
 
 
 is_student=input("are you a student?")
 age=14
-if age<18 and is_student=="no":
+if age<18:
+    is_student=="no"    
     print("10% discount")
+
+
 else:
     print("regular price")
 
