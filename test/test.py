@@ -222,3 +222,6 @@
 
 
 
+list1=[1,2,4,5,7]
+list1.pop()
+print(list1)
