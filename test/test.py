@@ -235,3 +235,4 @@
 
 
 
+name=int(input)
