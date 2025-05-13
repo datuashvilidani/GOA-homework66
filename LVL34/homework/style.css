@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: navy;
+}
+
+.p{
+    color: gray;
+    font-size: 30px;
+}
+#p2{
+    color: gray;
+    font-family:cursive;
+    font-size: 30px;
+}
+.shadow{
+    text-shadow: 5px 10px 2px black;
+    font-size: 30px;
+    color: gray;
+}
