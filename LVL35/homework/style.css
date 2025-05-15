@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+
+.cars1{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    border:1px solid black;
+    box-shadow: 10px 10px 10px rgb(196,196,196);
+    text-align: center;
+    background-image: url(gt2rs.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    
+    
+}
+.vidp{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    border:1px solid black;
+    box-shadow: 10px 10px 10px rgb(196,196,196);
+
+}
+.vidsf{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    border:1px solid black;
+    box-shadow: 10px 10px 10px rgb(196,196,196);
+
+}
+
+.vidlam{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    border:1px solid black;
+    box-shadow: 10px 10px 10px rgb(196,196,196);
+
+}
+p{
+    color: white;
+}
+.cars2{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(196,196,196);
+    text-align: center;
+    background-image: url(https://cdn.motor1.com/images/mgl/QMLRB/s1/ferrari-sf90-stradale.jpg);
+    background-size: cover;
+}
+.cars3{
+    box-sizing: border-box;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow:10px 10px 10px rgb(196,196,196);
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/R.6ef3772c9166c46b182bb99d16f11677?rik=vZpZTxcZTJvQGA&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+.list{
+    color: white;
+    text-shadow: 10px 10px 5px white;
+    font-size: 25px;
+
+}
