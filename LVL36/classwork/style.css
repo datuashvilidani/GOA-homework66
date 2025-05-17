@@ -1,0 +1,27 @@
+.btn{
+    padding: 10px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: navy;
+    color: white;
+    width: 200px;
+    cursor:pointer;
+    transition: 0.5s;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+.btn:active{
+    background-color: red;
+    color: blue;
+    
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+}

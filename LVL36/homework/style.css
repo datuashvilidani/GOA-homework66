@@ -1,0 +1,71 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+.food-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+}
+.pizza{
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/R.e9bb78e8553b9f98d4dda6541cadc67f?rik=9%2bAAHKFI5S2Z5A&pid=ImgRaw&r=0);
+    background-size: cover;
+    color:white;
+    font-family: italic;
+    border-radius: 10px;
+    
+}
+
+ .burger{ 
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px white;
+    width: 200px;
+    height:200px;
+    text-align: center;
+    background-image: url(https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/v1594406683/visitor-site/prod/ca/burgers_mobile_my18jv);
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    
+}
+.sushi{
+    box-sizing: border-box;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px white;
+    text-align: center;
+    background-image: url(https://wallpapers.com/images/file/sushi-pictures-os4s654gca3exllh.jpg);
+    background-size: cover;
+    color: white;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+
+body{
+    background-color: wheat;
+    height:100vh;    
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+    font-family: cursive;
+}
