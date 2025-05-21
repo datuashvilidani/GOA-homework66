@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background:white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px black;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+
+.card {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  margin-top: 40px;
+}
+
+
+.card button {
+  background-color: #f39c12;
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.number1{
+    background-color: red;
+    border-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 100px;
+    font-size: 30px;
+}
+.number2{
+    background-color: yellow;
+    border-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 100px;
+    font-size: 30px;
+}
+.number3{
+    background-color: green;
+    border-radius: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 100px;
+    font-size: 30px;
+}

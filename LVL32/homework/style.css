@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #c8f7c5, #f0fff0);
+    background: color-mix(in srgb, white 50%, green 50%)
   }
 
   header {
@@ -14,14 +14,14 @@ body {
   .logo {
     font-size: 24px;
     font-weight: bold;
-    color: green;
+    color: green  
   }
 
-  nav a {
+  .newnav{
     margin-left: 20px;
-    text-decoration: none;
     color: black;
     font-weight: bold;
+    justify-content: right;
   }
 
   .container {
@@ -58,5 +58,6 @@ body {
     color: white;
     padding: 10px 20px;
     text-decoration: none;
+    border-radius: 10px;
     
   }

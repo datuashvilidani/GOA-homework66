@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+    color: green;
+    text-align: center;
+}
+body{
+    background-color: lightgreen;
+    
+}
+button{
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
