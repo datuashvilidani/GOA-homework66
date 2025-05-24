@@ -1,0 +1,126 @@
+.maincont{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+
+}
+.main p{
+    margin: 30px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+a{
+    color: black;
+    font-size: large;
+    padding: 5px;
+}
+.pic{
+    position: relative;
+    width: fit-content;
+}
+.pic img{
+    display: block;
+    width: 1200px;
+    height: auto;
+    box-shadow: 5px 5px 10px wheat;
+    border-radius: 5px;
+}
+.pic h2{
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    border: 1px solid white;
+    font-size: 70px;
+    color: white;
+
+
+}
+.pic p{
+    top: 10%;
+    position: absolute;
+    left: 110%;
+    font-size: 25px;
+    border: 5px solid rgb(0, 98, 147);
+    background-color: rgb(0, 98, 147);
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 10px 5px;
+
+    
+   
+}
+
+.booking {
+  display: flex;
+  gap: 10px;
+  background: wheat;
+  padding: 10px;
+  justify-content: center;
+  box-shadow: 2px 5px 5px black
+}
+
+
+.booking button {
+  border: 1px solid black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 3px;
+
+}
+.booking p{
+    margin-left: 300px;   
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.hs1{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+.hs2{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+.hs3{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 3px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+}
+.newbutton{
+    border-radius: 5px;
+}
