@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainform{
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.p1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+input{
+    width: 250px;
+    height: 25px;
+
+
+}
+button{
+    border-radius: 5px;
+    
+}
