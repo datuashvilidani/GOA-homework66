@@ -235,4 +235,26 @@
 
 
 
-name=int(input)
+# name=int(input)
+
+
+
+def most_common_type(lst):
+    ints = 0
+    strs = 0
+    floats = 0
+
+    for item in lst:
+        if type(item) == int:
+            ints += 1
+        elif type(item) == str:
+            strs += 1
+        elif type(item) == float:
+            floats += 1
+
+    if ints >= strs and ints >= floats:
+        return int
+    elif strs >= ints and strs >= floats:
+        return str
+    else:
+        return float
