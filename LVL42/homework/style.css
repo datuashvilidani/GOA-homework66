@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit";
+}
+
+.maindiv {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 5px 5px 5px hsl(217, 54%, 11%);
+    color: white;
+    position: relative;
+}
+
+#eth {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img {
+    width: 100%;
+}
+
+#p1 {
+    color: gray;
+}
+
+p {
+    font-size: 18px;
+}
+
+.eth-icon {
+    width: 12px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+#profilep {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border: 1px solid white;
+}
+
+.clock-icon {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.clockp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+h3{
+    transition: 0.5s;
+}
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    
+}
+
+.graycreation {
+    color: gray;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+#jules {
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+#jules:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.secondpic {
+    width: 88%;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+
+.secondpic img {
+    width: 100px;
+
+}
+
+.secondpic:hover {
+    background-color: hsla(178, 100%, 50%, 0.432);
+    opacity: 100%;
+    
+}

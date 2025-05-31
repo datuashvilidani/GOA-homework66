@@ -14,6 +14,7 @@ body {
 .maindiv {
     display: flex;
 
+
 }
 
 .forp {
@@ -23,7 +24,8 @@ body {
 }
 
 img {
-    width: 320px;
+    width: 310px;
+    
 }
 
 #p1 {
@@ -44,10 +46,13 @@ h2 {
 }
 
 .texts {
-    width: 250px;
-    height: 460px;
+    width: 240px;
+    height: 445px;
     padding: 10px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -84,9 +89,14 @@ button {
     color: white;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 button img {
     width: 20px;
     height: 20px;
+}
+button:hover{
+    background-color:hsl(158, 42%, 18%) ;
 }
