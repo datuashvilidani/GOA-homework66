@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+/* აქ არის გაცენტრილილი და გვერდიგვერდ ჩვენი ელემენტები ასევე მიცემულია background color */
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+}
+/* აქ არის გვერდები მომრგვალებული და overflow დამალული */
+.mainDiv{
+    border-radius: 5px;
+    overflow: hidden;
+}
+/* აქ სიმაღლე და პადინგი არის დარეგულირებული ასევე ფერია შეცვლილი უკანა ფონის */
+.firstDiv{
+    background-color: white;
+    height:200px;
+    padding: 30px;
+}
+/* ამ კოდში პირველი პარაგრაფის ფერი,სიმუქე,ზომა და margin არი შეცვლილი/დარეგულირებული */
+.paragraph1{
+    color:#26a8a6;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+/* ამ კოდში მეორე პარაგრაფის ფერი,სიმუქე და margin არის შეცვლილი  */
+.paragraph2{
+    color:#BEDF31;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/* მხოლოდ ფერი აქვს შეცვლილი მესამე პარაგრაფს */
+.paragraph3{
+    color:hsl(218, 22%, 67%);
+}
+/* გადავდივართ ქვედა ორ div ზე ამ კოდში არის ორი დივი გვერდიგვერდ მოქცეული */
+.twoDivsTogether{
+    display: flex;
+    flex-direction: row;
+}
+/* აქ პირველი div-ს აქვს უკანა ფონის ფერი შეცვლილი ასევე დარეგურილებულია პადინგი და სისქე */
+.first{
+    background-color: #2BB4B1;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 30px;
+    width:50%;
+}
+/* ამ კოდში არის მეოთხე პარაგრაფის ფერი,სისქე და margin შეცვლილი */
+.paragraph4{
+    color:white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+/* ამ კოდში h2 ვუცვლით ფერს და margins */
+h2{
+    color:white;
+    margin-bottom: 10px;
+}
+/* ამ კოდში არი შეცვლილი ფერი ზომა და ვერტიკალურად გასწორებული  */
+h2 span{
+    color:hsl(179, 61%, 52%);
+    font-size: 14px;
+    vertical-align: middle;
+}
+/* ამ კოდში შეცვლილია ფერი,ფონტის ზომა და margin */
+.paragraph5{
+    color:white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+/* აქ ღილაკს ვუცვლით ფერს ასევე ვაშორებთ ბორდერს სიგანეს ვუცვლით 100%-ზე,შეცვლილია padding ასევე შეცვლილია კუთხეების სიმრგვალე,ფერი და ფონტის სისქე */
+button{
+    background-color: #BEDF31;
+    border:none;
+    width:100%;
+    padding: 13px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+/* აქ უკვე მეორე div-ს უკანა ფერია შეცვლილი,padding და სისქე */
+.second{
+    background-color: #49BEBD;
+    padding: 30px;
+    width:50%;
+}
+/* აქ მეორე div-ის პარაგრაფს აქვს შეცვლილი ფერი,ზომა და margin */
+.paragraph6{
+    color:hsl(204, 43%, 93%);
+    font-size: 14px;
+    margin-bottom: 3px;
+}
