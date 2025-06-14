@@ -18,11 +18,11 @@ body{
     align-items: center;
     width: 400px;
     height: 400px;
-    background-color:hsl(213, 19%, 18%) ;
+    background-color:white;
 
 }
 h1{
-    color: white;
+    color: black;
     margin: 20px;
 }
 
