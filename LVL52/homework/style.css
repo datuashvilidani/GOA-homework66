@@ -1,0 +1,29 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+}
+
+section{
+    border: 20px solid rgb(0, 88, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: loading 1s ease-in-out forwards infinite;
+    border-top-color: lime;
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+
+    }
+}

@@ -1,0 +1,19 @@
+h1{
+    transform: rotate(60deg);
+    background-color: black;
+    width: 250px;
+    
+}
+
+h2{
+    transform: translate(30);
+    background-color: black;
+    width:250px;
+
+}
+
+p{
+    transform: scale(2);
+    background-color: black;
+    width: 250px;
+}

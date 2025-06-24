@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.868);
+    font-family: Roboto;
+}
+
+h1 {
+    color: white;
+}
+
+.loading {
+    width: 350px;
+    height: 25px;
+    border: 2px solid rgb(15, 67, 46);
+    border-radius: 15px;
+    padding: 7px;
+
+}
+
+.fill {
+    height: 100%;
+    width: 0%;
+    border-radius: 12px;
+    animation: load 5s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load {
+    0% {
+        width: 25px;
+        background-color: rgb(0, 102, 102);
+    }
+
+    100% {
+        width: 350px;
+        background-color: rgb(0, 255, 170);
+    }
+}

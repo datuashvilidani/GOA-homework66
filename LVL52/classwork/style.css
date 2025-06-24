@@ -1,0 +1,24 @@
+section{
+    width: 250px;
+    height: 250px;
+    animation-name: colorChange;
+    animation-duration: 7s;
+}
+
+@keyframes colorChange {
+    0%{
+        background-color: navy;
+    }
+
+    50%{
+        background-color: red;
+        transform: scale(1.5);
+    }
+
+    100%{
+        background-color: black;
+        
+    }
+}   
+
+/* animation-name:სახელი ანიმაციის მუშაობს როგორც python-ში def ფუნქცია, animation-duration:ანიმაციის ხანგრძლივობა ამით ვაკონტროლებთ რამდნეი ხანი გაგრძელდეს ანიმაცია, animation-delay:ხოლო ამით შეგვიძლია შევაყოვნოთ ანიმაციის დაწყება  */

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+}
+
+section {
+    width: 350px;
+    height: 15px;
+    border: 1px solid white;
+    background-color: rgb(54, 54, 54);
+
+}
+
+div {
+    height: 100%;
+    animation: load 1s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load {
+    0% {
+        width: 50px;
+        background-color: white;
+    }
+
+    50% {
+        width: 110px;
+        background-color: white;
+    }
+
+    100% {
+        width: 350px;
+        background-color: white;
+    }
+}
