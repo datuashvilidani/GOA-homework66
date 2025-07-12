@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+h1 {
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    color: rgb(148, 0, 0);
+}
+
+button {
+    margin: 15px;
+    background-color: rgb(114, 0, 0);
+    color: white;
+    width: 80px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+
+.whatever {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+
+}
+
+.whatever:hover{
+    transform: scale(1.02);
+    background-color: rgb(55, 0, 0);
+}
+
+button:hover{
+    transform: scale(1.02);
+    background-color: black;
+}

@@ -262,15 +262,13 @@
 
 
 
-password=1234
-trypass=int(input("Enter a number password"))
-while trypass!=password:
-    print("wrong,try again")
-    trypass=input("enter a mumber password")
+# password=1234
+# trypass=int(input("Enter a number password"))
+# while trypass!=password:
+#     print("wrong,try again")
+#     trypass=input("enter a mumber password")
  
         
-
-
 
 
 
